@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "magic_tools:magic_ore_block",
+    "magic_tools:magic_ore_ore"
+  ]
+}

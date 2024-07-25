@@ -1,0 +1,313 @@
+{
+  "mod_elements": [
+    {
+      "name": "Magic_oreDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic_tools/models/item/magic_ore_dust.json",
+          "src/main/java/net/mcreator/magictools/item/Magic_oreDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Magic_oreOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/forge/biome_modifier/magic_ore_ore_biome_modifier.json",
+          "src/main/resources/data/magic_tools/worldgen/placed_feature/magic_ore_ore.json",
+          "src/main/java/net/mcreator/magictools/block/Magic_oreOreBlock.java",
+          "src/main/resources/assets/magic_tools/blockstates/magic_ore_ore.json",
+          "src/main/resources/assets/magic_tools/models/block/magic_ore_ore.json",
+          "src/main/resources/assets/magic_tools/models/item/magic_ore_ore.json",
+          "src/main/resources/data/magic_tools/worldgen/configured_feature/magic_ore_ore.json",
+          "src/main/resources/data/magic_tools/loot_tables/blocks/magic_ore_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_oreBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic_tools/blockstates/magic_ore_block.json",
+          "src/main/resources/assets/magic_tools/models/block/magic_ore_block.json",
+          "src/main/resources/assets/magic_tools/models/item/magic_ore_block.json",
+          "src/main/java/net/mcreator/magictools/block/Magic_oreBlockBlock.java",
+          "src/main/resources/data/magic_tools/loot_tables/blocks/magic_ore_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_oreOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magic_ore_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_oreBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magic_ore_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_oreOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_ore_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magic_ore_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Magicingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magictools/item/MagicingotItem.java",
+          "src/main/resources/assets/magic_tools/models/item/magicingot.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicoreDustingot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicore_dustingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magicore_dustingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magictools/item/Magic_toolsPickaxeItem.java",
+          "src/main/resources/assets/magic_tools/models/item/magic_tools_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magictools/item/Magic_toolsAxeItem.java",
+          "src/main/resources/assets/magic_tools/models/item/magic_tools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic_tools/models/item/magic_tools_sword.json",
+          "src/main/java/net/mcreator/magictools/item/Magic_toolsSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic_tools/models/item/magic_tools_shovel.json",
+          "src/main/java/net/mcreator/magictools/item/Magic_toolsShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magictools/item/Magic_toolsHoeItem.java",
+          "src/main/resources/assets/magic_tools/models/item/magic_tools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magic_tools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magic_tools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magic_tools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magic_tools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic_toolsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/recipes/magic_tools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magicadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic_tools/advancements/magicadvancement.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Magic_oreBlock",
+      "~CUSTOM:Magic_oreOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Magic_oreBlock",
+      "~CUSTOM:Magic_oreOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Magic_toolsPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Magic_toolsAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Magic_toolsSword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Magic_toolsHoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Magic_toolsShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.magic_tools.magicingot": "Magic ingot",
+      "advancements.magicadvancement.title": "Feel the power",
+      "block.magic_tools.magic_ore_block": "Block of Magic_ore",
+      "item.magic_tools.magic_tools_shovel": "Magic Shovel",
+      "advancements.magicadvancement.descr": "craft a magic pickexe",
+      "item.magic_tools.magic_tools_pickaxe": "Magic Pickaxe",
+      "item.magic_tools.magic_tools_axe": "Magic Axe",
+      "item.magic_tools.magic_tools_hoe": "Magic Hoe",
+      "block.magic_tools.magic_ore_ore": "Magic Ore",
+      "item.magic_tools.magic_ore_dust": "Magic_ore",
+      "item.magic_tools.magic_tools_sword": "Magic Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "magic_tools",
+    "modName": "magic tools",
+    "version": "1.0.0",
+    "author": "danch, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.magictools"
+  },
+  "mcreatorVersion": 202400229712
+}
