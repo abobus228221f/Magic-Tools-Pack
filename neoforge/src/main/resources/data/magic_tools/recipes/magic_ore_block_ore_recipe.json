@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magic_tools:magic_ore_block"
+    }
+  ],
+  "result": {
+    "id": "magic_tools:magic_ore_dust",
+    "count": 9
+  }
+}
